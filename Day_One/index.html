@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>30DaysOfScript:Inline Script</title>
+    <!--
+        This is known as Internal Script, it can be added to the head or body of an HTML file
+        It is preferred to be put into the body rather than the head, though
+    -->
+    <script>
+        console.log('Welcome to 30DaysOfJavaScript! This can only be seen in the console log')
+      </script>
+
+    <!--
+        We can also place external scripts in either the head or body, but body is preferred
+        Like with internal, we need to use the script tags
+        src is source
+        Source = ourfilename.js
+    -->
+    <script src="introduction.js"></script>
+    <script src="./helloworld.js"></script>
+
+
+  </head>
+  <body>
+    <button onclick="alert('Welcome to 30DaysOfJavaScript!')">Click Me</button>
+    <!-- 
+        Note that this INLINE SCRIPT Javascript being added, meaning it is embedded within the HTML
+        syntax of a button to click
+    button onclick, then create an alert with text inside
+    between the button tags is where the page html text shows up...
+    Note that the syntax on Chrome is as follows:
+    Website name says... alert text-->
+    <button onclick ="alert('Welcome to my new alert!')">Click the new alert!</button>
+    
+    <!-- this is internal scripting in the body-->
+    <script>
+        console.log('Welcome to 30DaysOfJavaScript, in the body')
+      </script>
+
+
+    <!-- Before the closing tag of the body is the recommended place to put the external JavaScript script 
+    When using multiple external files, 
+    Your main.js file should be below all other scripts
+    NOTE: you can see which file is being run on the chrome console for each console output!
+-->
+    <script src="introduction.js"></script>
+    <script src="./helloworld.js"></script>
+    <script src="./datatypes.js"></script>
+    <script src="./varibles.js"></script>
+
+
+  </body>
+</html>
