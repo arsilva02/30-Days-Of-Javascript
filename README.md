@@ -6,4 +6,6 @@ DATE STARTED: 12/18/2023
 
 Day One - Introduction: COMPLETED 12/18/2023
 
-Day Two - Data Types: In Progress
+Day Two - Data Types: COMPLETED 12/18/2023
+
+Day Three - Booleans, Operators, Date: in Progress
