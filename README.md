@@ -10,4 +10,6 @@ Day Two - Data Types: COMPLETED 12/18/2023
 
 Day Three - Booleans, Operators, Date: COMPLETED 12/19/2023
 
-Day Four - Conditionals: In Progress
+Day Four - Conditionals: COMPLETED 12/19/2023
+
+Day Five - Arrays: In Progress
