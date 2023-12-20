@@ -8,4 +8,6 @@ Day One - Introduction: COMPLETED 12/18/2023
 
 Day Two - Data Types: COMPLETED 12/18/2023
 
-Day Three - Booleans, Operators, Date: in Progress
+Day Three - Booleans, Operators, Date: COMPLETED 12/19/2023
+
+Day Four - Conditionals: In Progress
