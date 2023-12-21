@@ -17,8 +17,8 @@ const numbers = [0, 3.14, 9.81, 37, 98.6, 100] // array of numbers
 const fruits = ['banana', 'orange', 'mango', 'lemon'] // array of strings, fruits
 const vegetables = ['Tomato', 'Potato', 'Cabbage', 'Onion', 'Carrot'] // array of strings, vegetables
 const animalProducts = ['milk', 'meat', 'butter', 'yoghurt'] // array of strings, products
-const webTechs = ['HTML', 'CSS', 'JS', 'React', 'Redux', 'Node', 'MongDB'] // array of web technologies
-const countries = ['Finland', 'Denmark', 'Sweden', 'Norway', 'Iceland'] // array of strings, countries
+const webTechs2 = ['HTML', 'CSS', 'JS', 'React', 'Redux', 'Node', 'MongDB'] // array of web technologies
+const countries2 = ['Finland', 'Denmark', 'Sweden', 'Norway', 'Iceland'] // array of strings, countries
 
 // Print the array and its length
 
@@ -34,11 +34,11 @@ console.log('Number of vegetables:', vegetables.length)
 console.log('Animal products:', animalProducts)
 console.log('Number of animal products:', animalProducts.length)
 
-console.log('Web technologies:', webTechs)
-console.log('Number of web technologies:', webTechs.length)
+console.log('Web technologies:', webTechs2)
+console.log('Number of web technologies:', webTechs2.length)
 
-console.log('Countries:', countries)
-console.log('Number of countries:', countries.length)
+console.log('Countries:', countries2)
+console.log('Number of countries:', countries2.length)
 
 //we can also have ones of different data types
 const diffArr = ['Arden',32, true, {country: 'USA', city :"Austin"}]
@@ -155,9 +155,9 @@ pushArr.reverse()
 console.log(pushArr)
 
 //sorting
-console.log(webTechs)
-webTechs.sort()
-console.log(webTechs)
+console.log(webTechs2)
+webTechs2.sort()
+console.log(webTechs2)
 
 //arrays of arrays
 

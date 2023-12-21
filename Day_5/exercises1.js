@@ -1,30 +1,6 @@
 console.log('Day 5 - Exercises 1')
 
 
-const countries1 = [
-    'Albania',
-    'Bolivia',
-    'Canada',
-    'Denmark',
-    'Ethiopia',
-    'Finland',
-    'Germany',
-    'Hungary',
-    'Ireland',
-    'Japan',
-    'Kenya'
-  ]
-
-  
-const webTechs1 = [
-    'HTML',
-    'CSS',
-    'JavaScript',
-    'React',
-    'Redux',
-    'Node',
-    'MongoDB'
-  ]
 
 //Declare an empty array;
 const emptArray = Array()
