@@ -14,5 +14,6 @@ Day Four - Conditionals: COMPLETED 12/19/2023
 
 Day Five - Arrays: COMPLETED 12/20/2023
 
-Day Six - Loops: In Progress
+Day Six - Loops: COMPLETED 12/20/2023
 
+Day Seven - Functions: In Progress
