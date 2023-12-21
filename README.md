@@ -12,4 +12,7 @@ Day Three - Booleans, Operators, Date: COMPLETED 12/19/2023
 
 Day Four - Conditionals: COMPLETED 12/19/2023
 
-Day Five - Arrays: In Progress
+Day Five - Arrays: COMPLETED 12/20/2023
+
+Day Six - Loops: In Progress
+
