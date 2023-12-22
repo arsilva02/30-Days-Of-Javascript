@@ -16,4 +16,8 @@ Day Five - Arrays: COMPLETED 12/20/2023
 
 Day Six - Loops: COMPLETED 12/20/2023
 
-Day Seven - Functions: In Progress
+Day Seven - Functions: COMPLETED 12/21/2023
+
+Day Eight - Objects: COMPLETED 12/21/2023
+
+Day Nine - Higher Order Functions: In Progress
