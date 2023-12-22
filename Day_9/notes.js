@@ -115,4 +115,4 @@ usersNotes.sort((a,b) => {
     if (a.age > b.age) return 1
     return 0
 })
-console.log(usersNotes) //sorted ascending
+console.log(usersNotes) //sorted ages ascending
