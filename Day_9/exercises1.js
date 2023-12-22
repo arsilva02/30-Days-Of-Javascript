@@ -1,6 +1,6 @@
 console.log('Day 9 - Exercises 1')
 
-const countries = ['Finland', 'Sweden', 'Denmark', 'Norway', 'IceLand']
+const countries = ['Finland', 'Sweden', 'Denmark', 'Norway', 'IceLand','Fiji']
 const names = ['Asabeneh', 'Mathias', 'Elias', 'Brook']
 const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 const products = [
