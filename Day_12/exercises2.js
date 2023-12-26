@@ -22,7 +22,6 @@ function tenMostFrequentWords(paragraph, length = paragraph.length){
             }
         }
     }
-    frq.sort()
     frq.sort((a,b)=>{
         if(a.count > b.count) return -1
         if(a.count < b.count) return 1
