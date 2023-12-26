@@ -16,12 +16,10 @@ function tenMostFrequentWords(paragraph, length = paragraph.length){
             frq.push({word:word, count:1})
         } else{
             for (item of frq){
-                if(item.word === word){
-                    item.count = 1 + item.count
-                }
-            }
-        }
+                if(item.word === word){item.count = 1 + item.count}
+            } }
     }
+    
     frq.sort((a,b)=>{
         if(a.count > b.count) return -1
         if(a.count < b.count) return 1
