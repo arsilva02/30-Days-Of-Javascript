@@ -15,9 +15,9 @@ function tenMostFrequentWords(paragraph, length = paragraph.length){
         if(!wordsFound.includes(word)){
             frq.push({word:word, count:1})
         } else{
-            for (item in frq){
-                if(frq[item].word === word){
-                    frq[item].count = 1 + frq[item].count
+            for (item of frq){
+                if(item.word === word){
+                    item.count = 1 + item.count
                 }
             }
         }
