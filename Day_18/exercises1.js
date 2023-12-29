@@ -1,0 +1,1 @@
+console.log('Day 18 - Exercises 1')
