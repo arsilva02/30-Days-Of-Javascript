@@ -1,0 +1,1 @@
+console.log('Day 21 - Exercises 1')
