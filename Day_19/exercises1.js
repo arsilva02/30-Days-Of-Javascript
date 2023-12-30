@@ -1,5 +1,4 @@
-console.log('Dau 19 - Closures'
-)
+console.log('Day 19 - Closures')
 
 //Create a closure which has one inner function
 function outside() {
