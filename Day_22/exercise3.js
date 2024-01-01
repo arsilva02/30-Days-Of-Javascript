@@ -216,7 +216,6 @@ const randomHex =() => {
 
 const h1 = document.createElement('h1')
 h1.innerHTML =  asabenehChallenges2020.description+ `<span id="year">`+asabenehChallenges2020.challengeYear+`<span>`
-const title = 
 const yearElement = document.querySelector("#year")
 
 function setColor (){
