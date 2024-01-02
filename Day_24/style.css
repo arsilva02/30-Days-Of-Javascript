@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+    min-height: 100vh;
+    color: #252525;
+    background: url(./images/galaxy.gif);
+    background-size: 100%;
+}
+
+h1 {
+    font-size: 2.1rem;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: .02em;
+    color: white;
+
+}
+
+.glass-bg {
+    background: rgba(255,255,255,0.15);
+    backdrop-filter: blur(5px);
+}
+
+.g-place-center {
+    display: grid;
+    place-items: center;
+}
+.wrapper {
+    margin-top: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    backdrop-filter: blur(3px);
+}
+
+h3 {
+    background: #f7f7f7;
+    padding: 1.2em 2.2em;
+    font-size: 2.2rem;
+    border-radius: 5em;
+    box-shadow: 0 15px 5px rgba(0,0,0,0.3);
+    transition: .2s ease;
+}
+
+
+
+.wrapper > div {
+    width: 100px;
+    height: 70px;
+    font-size: 2rem;
+    color: white;
+}
+
+.result {
+    padding: 30px 40px;
+    color: #f7f7f7;
+    order: 2;
+    gap: .1em;
+}
+
+span {
+    display: block;
+    width: 100px;
+    height: 100px;
+    font-weight: 900;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.25);
+}
+
+img {
+    width: 40%;
+    filter: drop-shadow(0 10px 25px rgba(255,255,255,.3));
+}
+
+b {
+    text-transform: uppercase;
+}
+
+.input-container {
+    width: min(90%, 50em);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    margin: 2em 0;
+}
+
+
+
+
+
