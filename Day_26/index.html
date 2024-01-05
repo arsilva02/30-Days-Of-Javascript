@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>World Countries List</title>
+</head>
+
+<body>
+	<h1>World Countries List</h1>
+	<p class="subtitle"></p>
+	<div class="search-options">
+		<label>
+			Starting Word
+			<input type="radio" class="filter" name ="filter" value="starts-with">
+		</label>
+		<label>
+			Search with Any Word
+			<input type="radio" class="filter" name ="filter" value="search">
+		</label>
+		<label>
+			Sort Descending
+			<input type="checkbox" class="filter" name ="filter" value="search">
+		</label>
+	</div>
+
+	<div class="text-search">
+		<input type="text" placeholder="Search country...">
+	</div>
+	<p class="search-total"></p>
+
+
+	<div class="selected-countries">
+		<div class="get-started">
+			<p>Select any one of the filter and start searching the countries</p>
+		</div>
+	</div>
+
+	<script src="./data/countries.js"></script>
+	<script src="./scripts/main.js"></script>
+
+</body>
+
+</html>
