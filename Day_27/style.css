@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+    min-height: 100vh;
+    color: #252525;
+    background: #fcfcfc;
+    padding: 3em 0;
+    font-weight: 300;
+    display: grid;
+    justify-content: center;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+main {
+    display: grid;
+    place-items: center;
+    gap: 2em;
+}
+
+h2 {
+    font-size: 1.9rem;
+    letter-spacing: .1em;
+    font-weight: 400;
+}
+
+
+.titles {
+    background: #EDDFDE;
+    justify-content: center;
+
+    gap: 1em;
+    align-items: center;
+    font-size: .9rem;
+    font-weight: 400;
+    height: 40%;
+    text-transform: uppercase;
+    overflow: hidden;
+}
+
+.about {
+    font-size: .9rem;
+    width: 90%;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+
+.project-component {
+    width: 80%;
+    height: 180px;
+    background:#EDDFDE;
+    transition: .7s ease;
+    border: 2px ridge #eee;
+    border-radius: 5px;
+}   
+
+.project-component, .tech{
+    display: grid;
+    place-items: center;
+    gap: 1em;
+}
+
+.tech{
+    height: 7em;
+}
+.tech> p {
+    color: #f7f7f7;
+    background: #3f3f3f;
+    text-transform: uppercase;
+    padding: 1em 1.5em;
+    font-weight: 700;
+    letter-spacing: .1em;
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+        transform: scale(1.5) translateY(-1em);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1.85);
+    }
+}
+
+@keyframes slide {
+    0% {
+        opacity: 0;
+        transform: scale(1.2) translateX(-8em);
+    }
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+
+.attribution {
+    border-top: 1px solid #aaa;
+    width: 100%;
+    text-align: center;
+    margin-top: 1em;
+    padding: 1em 0;
+    font-size: .75rem;
+    position: fixed;
+    bottom: 0;
+    background: rgba(255,255,255,.2);
+    backdrop-filter: blur(5px);
+    transition: .5s ease;
+    z-index: 2;
+}
+
+.attribution, a {
+    color: #232323;
+}
